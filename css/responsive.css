@@ -1,0 +1,108 @@
+
+@media (min-width: 770px) and (max-width: 1050px) {
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0.1em 1em;
+    margin: 0.3rem 1rem;
+  }
+}
+
+@media (min-width: 630px) and (max-width: 968px) {
+  .collapse {
+    padding: 1.5em 1em;
+    margin-top: 2em;
+    border-radius: 18px;
+    background: #c5cae9;
+    box-shadow: inset 8px 8px 8px #b7bcd9, inset -8px -8px 8px #d3d8f9;
+  }
+
+  .home-content .home-content-img {
+    margin: 2em auto;
+  }
+
+    /* contact us */
+    .contact-card{
+      margin-top: 1.5em;
+    }
+    
+    .contact-card h3{
+      letter-spacing: 0em;
+      font-size: 15px;
+    }
+    
+    .contact-card h6{
+      font-size: 1em;
+      letter-spacing: 0em;
+    }
+
+    .contact-card ul li {
+      font-size: 1em;
+      letter-spacing: 0em;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 600px) {
+  .collapse {
+    padding: 1em;
+    margin-top: 1.5em;
+    border-radius: 18px;
+    background: #c5cae9;
+    box-shadow: inset 8px 8px 8px #b7bcd9, inset -8px -8px 8px #d3d8f9;
+  }
+
+  .navbar .navbar-brand {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d3d8f9, #b1b6d2);
+    box-shadow: 11px 11px 26px #a9aec8, -11px -11px 26px #e1e6ff;
+  }
+
+  .navbar-light .navbar-nav .nav-item {
+    transition: 0.5s ease;
+    margin: 1.5em 2em;
+  }
+
+  .home-content {
+    margin-top: 2em;
+    padding: 1em;
+  }
+
+  .home-content .home-content-img {
+    display: none;
+  }
+
+  .home-content .home-content-info button {
+    display: block;
+    margin: 5em auto 3em auto;
+  }
+
+  .home-content .home-content-info p {
+    margin: 1em 0;
+    font-size: 20px;
+  }
+
+  .home-content-info .home-content-circle1, .home-content-info .home-content-circle2{
+    display: none;
+  }
+
+  /* about */
+  .about-content{
+    margin: 2em 0;
+    padding: 2em 0.8em;
+  }
+
+  .about-content-container{
+    padding: 1.5em!important;
+  }
+
+  /* contact us */
+  .contact-card{
+    margin-top: 1.5em;
+  }
+
+  .contact-content-form .contact-content-form-img{
+    display: none;
+  }
+}
+
+
+
