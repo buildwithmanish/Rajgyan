@@ -273,6 +273,10 @@ body {
   color: #616161;
 }
 /* services */
+.counter-section{
+  margin: 2.5em 0 0 0;
+  padding: 2em 1em 1em 1em !important;
+}
 
 /* contact us */
 .contact-content-row,
@@ -280,7 +284,7 @@ body {
   padding: 1em 0em !important;
 }
 
-.contact-card {
+.contact-card, .counter-box {
   padding: 1.5em 1em;
   box-sizing: border-box;
   text-align: center;
@@ -290,21 +294,23 @@ body {
 }
 
 .contact-card h2,
-.product-card-box h2 {
+.product-card-box h2,
+.counter-box h2 {
   color: #673ab7;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 
 .contact-card h3,
-.product-card-box h3 {
+.product-card-box h3,
+.counter-box h3 {
   font-weight: bolder;
   color: #880e4f;
   letter-spacing: 0.05em;
   font-family: "Lato";
 }
 
-.contact-card h6 {
+.contact-card h6, .counter-box h6 {
   font-weight: bold;
   font-size: 1.5em;
   letter-spacing: 0.1em;
@@ -361,14 +367,22 @@ body {
   box-shadow: inset 6px 6px 11px #b3b8d4, inset -6px -6px 11px #d7dcfe;
 }
 
+.contact-content-form .contact-content-form-input input:focus, 
+.contact-content-form .contact-content-form-input textarea:focus{ 
+  background: #c5cae9;
+  box-shadow: inset 4px 4px 3px #b9bedb,
+              inset -4px -4px 3px #d1d6f7;
+}
+
 .contact-content-form .contact-content-form-input textarea {
   resize: none;
   height: 15em;
   border-radius: 10px;
 }
 
-.contact-content-form .contact-content-form-input button {
+.contact-content-form .contact-content-form-input .btn {
   border: none;
+  transition: 0.5s ease-in;
   outline: none;
   border-radius: 30px;
   background: #c5cae9;
@@ -382,14 +396,24 @@ body {
   text-transform: capitalize;
 }
 
-.contact-content-form .contact-content-form-input button:hover {
+.contact-content-form .contact-content-form-input .btn:hover {
   color: #673ab7;
   transition: 0.5s ease-in;
   background: #c5cae9;
   box-shadow: inset 6px 6px 11px #b3b8d4, inset -6px -6px 11px #d7dcfe;
 }
 
-.contact-content-form .contact-content-form-input button i {
+.contact-content-form .contact-content-form-input .btn:focus, .contact-content-form .contact-content-form-input .btn:active {
+  color: #673ab7;
+  transition: 0.5s ease-in;
+  background: #c5cae9;
+  outline: none;
+  border: none;
+  box-shadow: inset 6px 6px 11px #b3b8d4, inset -6px -6px 11px #d7dcfe;
+}
+
+
+.contact-content-form .contact-content-form-input .btn i {
   margin-left: 0.5em;
   font-weight: bold;
   font-size: 20px;
