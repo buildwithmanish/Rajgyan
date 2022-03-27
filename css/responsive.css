@@ -18,6 +18,11 @@
     margin: 2em auto;
   }
 
+  .home-content .home-content-info .get-app button{
+    font-size: 0.6em;
+  }
+
+
   /* contact us */
   .contact-card, .counter-box {
     margin-top: 1.5em;
@@ -87,6 +92,10 @@
     display: none;
   }
 
+  .home-content .home-content-info .get-app button{
+    margin: 1em 0!important;
+  }
+
   /* about */
   .about-content {
     margin: 2em 0;
@@ -100,6 +109,11 @@
   /* products */
   .product-card-box {
     margin-top: 1.5em;
+  }
+
+  /* services */
+  .service-card-box{
+    margin: 1em 0;
   }
 
   /* contact us */

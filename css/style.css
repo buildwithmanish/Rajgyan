@@ -156,6 +156,38 @@ body {
   font-family: "Passion One", cursive;
 }
 
+.home-content .home-content-info .get-app img{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 0.7em;
+}
+
+.home-content .home-content-info .get-app{
+  margin-left: 0em;
+  margin-top: 10px;
+}
+
+.home-content .home-content-info .get-app button{
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  box-shadow: none;
+  border-radius: 6px;
+  background: #c5cae9;
+  box-shadow: 5px 5px 12px #b9bedb, -5px -5px 12px #d1d6f7;
+  transition: 0.5s ease-in;
+  font-family: "Lato";
+}
+
+.home-content .home-content-info .get-app button:hover{
+  border-radius: 6px;
+  background: #c5cae9;
+  box-shadow: inset 6px 6px 11px #b3b8d4, inset -6px -6px 11px #d7dcfe;
+}
+
 .home-content .home-content-info p,
 .about-content .about-content-container .about-content-info p,
 .product-content .product-content-container .product-content-info p,
